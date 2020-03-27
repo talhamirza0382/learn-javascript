@@ -14,10 +14,15 @@ in js file,
 ~ now last input box will only be focussed
 
 ===============================================
+                         using .textContent
+function checkGuess(){
+    var x= document.querySelector('button').textContent;
+    document.querySelector('h1').innerHTML=x 
 
+}
+hence  gets copied to h1
 
-
-
+===============================================
 
 
 

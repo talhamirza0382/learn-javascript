@@ -7,9 +7,19 @@ var numBer=()=>{
 }
 
 var guessCount=1
-var guessbox = document.querySelector('.guessField');
-var guessbox2 = document.querySelector('.guessField2');
-var guessbox3 = document.querySelector('.guessField3');
-guessbox.focus();
-guessbox2.focus();
-guessbox3.focus();
+
+// var guessField = document.querySelector('.guessfield');
+// guessField.focus();
+
+document.getElementById('abutton').addEventListener('click',checkGuess)
+
+
+function checkGuess(){
+    var x= document.querySelector('button').textContent;
+    if()
+    
+    document.querySelector('h1').innerHTML=x
+    
+
+}
+
