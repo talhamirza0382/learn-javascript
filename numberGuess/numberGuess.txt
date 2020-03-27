@@ -1,0 +1,28 @@
+                                     FOCUS IN JS
+
+~ focus brings highlight and cursor on that field when page is loaded.
+
+! <input id='firsti />     ! <input id='secondi />      ! <input id='thirdi />
+
+in js file,
+! var one   =  document.querySelector('firsti')
+! var two   =  document.querySelector('secondi')
+! var three =  document.querySelector('thirdi')
+
+! one.focus()          ! two.focus()             ! three.focus()
+
+~ now last input box will only be focussed
+
+===============================================
+
+
+
+
+
+
+
+
+
+
+
+
